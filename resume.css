@@ -1,0 +1,40 @@
+/* resume upload start */
+.resume{
+    width: 95%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+}
+.head1{
+    color: white;
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+
+.upload-btn-wrapper {
+    position: relative;
+    overflow: hidden;
+    display: inline-block;
+  }
+  
+  .btn {
+    border: 2px solid gray;
+    color: rgb(0, 0, 0);
+    background-color: yellow;
+    padding: 8px 20px;
+    border-radius: 2px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  .upload-btn-wrapper input[type=file] {
+    font-size: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    opacity: 0;
+  }
+  /* Resume end */

@@ -1,0 +1,162 @@
+/* connecting it image */
+.mainimg{
+    background-color: var(--bg-color);
+    margin: 20px 95px 30px 95px;
+    border-radius: 10px;
+
+}
+
+.mainimage{
+    display: flex;
+    padding: 50px 10px 50px 40px;
+    width: 93%;
+    
+    
+}
+.lefttxt{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+
+}
+
+/* #wrkimg{
+    display: none;
+} */
+/* functionality in images */
+#rigtsection{
+    display: none;
+}
+
+
+.lefttxt h2{
+    font-family: var(--font-Helvetica);
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+    
+}
+#hed2{
+    color: grey;
+}
+
+.vl{
+    border-top: 2px solid black;
+    width: 50%;
+}
+
+.rightimg{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    row-gap: 20px;
+    column-gap: 20px;   
+    
+}
+.imge1{
+    background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+
+    background-size: cover;
+     width: 400px;
+    height: 200px;
+   
+}
+.imge2{
+    background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+
+    height: 200px;
+   
+}
+.imge3{
+    background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+
+    height: 200px;
+   
+}
+.imge4{
+    background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+    background-size: cover;
+    width: 400px;
+
+    height: 200px;
+   
+}
+
+/* work img */
+.rightsec{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    row-gap: 40px;
+    column-gap: 20px;   
+
+}
+.imge1{
+    background-color: red;
+    background-size: cover;
+    width: 400px;
+    height: 200px;
+
+
+}
+
+/* connecting it image end */
+
+@media(max-width:1024px){
+    .mainimage{
+        display: flex;
+        flex-direction: column-reverse;
+        background-color: brown;
+        padding: 50px;
+        width: 93%;
+        
+        
+    }
+    .rightimg{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        row-gap: 30px;
+        column-gap: 50px;
+        margin-left: 10px;
+        margin-bottom: 30px;
+        
+    }
+    .imge1{
+        background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+        background-size: cover;
+        width: 300px;
+        height: 200px;
+       
+    }
+    .imge2{
+        background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+        background-size: cover;
+       width: 300px;
+        height: 200px;
+       
+    }
+    .imge3{
+        background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+        background-size: cover;
+       width: 300px;
+        height: 200px;
+       
+    }
+    .imge4{
+        background-image: url(./image/burst-kUqqaRjJuw0-unsplash.jpg);
+        background-size: cover;
+       width: 300px;
+        height: 200px;
+       
+    }
+
+
+}

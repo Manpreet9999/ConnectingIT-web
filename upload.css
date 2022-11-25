@@ -1,0 +1,151 @@
+
+/*Conatct   */
+.ginmain{
+    width: 80%;
+    height: 50vh;
+    margin: 50px 40px 40px 200px;
+    background-color:  rgb(188, 255, 33);
+
+
+}
+.getin{
+    display: flex;
+    padding: 100px;
+    justify-content: space-between;
+   
+}
+.bttn{
+    padding: 15px 50px;
+    background-color: blue;
+    font-size: 20px;
+    color: white;
+}
+.leftget{
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.ctact{
+   margin-bottom: 100px;
+}
+
+.main-button{
+    padding-top: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.btnn{
+    background-color: var(--text-blue);
+    padding: 15px 40px;
+    color: white;
+    border-radius: 4px;
+    border: 1px solid rgb(188, 255, 33);
+
+}
+#caution{
+    text-align: start;
+}
+.form{
+    background-color:  rgb(188, 255, 33);
+    width: 50%;
+    height: 50vh;
+    margin: 50px 0px 40px 250px;
+    border-radius: 20px;
+}
+.maintext{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.paragraph{
+    text-align: center;
+}
+.mid-container{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    
+}
+/* Inputs */
+#mail{
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+    margin-right: 120px;
+}
+#info{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+#info-1{
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#phno{
+    display: flex;
+    font-size: 28px;
+    font-weight: bold;
+}
+#texta-1{
+    font-size: 20px;
+    font-weight: bold;
+
+}
+.inputs{
+    margin: 20px 50px 10px 50px;
+    display: flex;
+    flex-direction: column;
+}
+.input-1{
+    margin-bottom: 10px;
+    padding: 10px 4px;
+    outline: none;
+    border: none;
+
+}
+.textarea-1{
+    resize: none;
+    outline: none;
+    border: none;
+}
+.submit{
+    font-size: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+    color:  rgb(188, 255, 33);
+    background-color: var(--text-blue);
+    transition: 0.4s;
+    outline: none;
+    border: none;
+    
+}
+.submit:hover{
+    color: var(--text-blue);
+    background-color:  rgb(188, 255, 33);
+    border: 1px solid var(--text-blue);
+
+}
+.home{
+    background-color: blue;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-top: 300px;
+}
+.home span{
+    text-align: center;
+    padding: 25px;
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+}
+.main-home{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+

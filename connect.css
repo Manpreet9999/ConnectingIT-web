@@ -1,0 +1,182 @@
+/* Connection section */
+.uppermain{
+    background-color: rgb(242, 0, 0);
+    margin: 50px 100px 100px 100px;
+
+}
+.stay-conn h2{
+    padding: 20px 0px 20px 90px;
+}
+.connectmain{
+    display: flex;
+    justify-content: space-evenly;
+    height: 50vh;
+    width: 100%;
+}
+.maindiv{
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 40%;
+    height: 90%;
+
+}
+.team{
+    display: flex;
+    justify-content: first baseline;
+    padding: 25px 0px 10px 25px;
+}
+.team h3{
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.teaminfo p{
+    width: 50%;
+    padding: 0px 0px 10px 25px;
+
+}
+.serch{
+    padding: 0px 0px 10px 25px;
+
+}
+.serch p{
+    font-size: 25px;
+    font-weight: bold;
+     
+}
+
+.serch span{
+    margin-left: 20px ;
+
+}
+.maindiv-2{
+    border-radius: 10px;
+    background-color: aquamarine;
+    width: 40%;
+    height: 90%
+
+}
+.team-2{
+    display: flex;
+    justify-content: first baseline;
+    padding: 25px 0px 10px 25px;
+}
+.team-2 h3{
+    margin-top: 35px;
+    margin-left: 40px;
+    font-size: 25px;
+}
+.teaminfo-2 p{
+    width: 50%;
+    padding: 0px 0px 10px 25px;
+
+}
+.serch-2{
+    padding: 0px 0px 10px 25px;
+
+}
+.serch-2 p{
+    font-size: 25px;
+    font-weight: bold;
+     
+}
+
+.serch-2 span{
+    margin-left: 20px ;
+
+}
+@media(max-width:1024px){
+    .connectmain{
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        width: 100%;
+    }
+    .uppermain{
+        
+        background-color: rgb(242, 0, 0);
+        height: 100vh;
+
+        margin: 0px 10px 10px 10px;
+       
+    
+    }
+    .maindiv{
+        margin: 300px 50px 100px 50px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        width: 80%;
+        height: 80%;
+        margin-bottom: 50px;
+    
+    }
+    .maindiv-2{
+        margin: 0px 50px 0px 50px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        width: 80%;
+        height: 80%;
+        margin-bottom: 50px;
+    
+    }
+    .teaminfo p{
+        width: 85%;
+        padding: 0px 0px 10px 25px;
+    
+    }
+    .teaminfo-2 p{
+        width: 85%;
+        padding: 0px 0px 10px 25px;
+    
+    }
+
+}
+@media(max-width:400px){
+    .connectmain{
+        display: flex;
+        flex-direction: column;
+        height: 40vh;
+        width: 100%;
+    }
+    .uppermain{
+        
+        background-color: rgb(242, 0, 0);
+        height: 120vh;
+
+        margin: 0px 10px 10px 10px;
+       
+    
+    }
+    .maindiv{
+        margin: 500px 10px 100px 10px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        width: 95%;
+        height: 100%;
+        height: 80vh;
+
+        margin-bottom: 50px;
+    
+    }
+    .maindiv-2{
+        margin: 0px 10px 0px 10px;
+        border-radius: 10px;
+        background-color: aquamarine;
+        width: 95%;
+        height: 80vh;
+        margin-bottom: 50px;
+    
+    }
+    .teaminfo p{
+        width: 85%;
+        padding: 0px 0px 10px 25px;
+    
+    }
+    .teaminfo-2 p{
+        width: 85%;
+        padding: 0px 0px 10px 25px;
+    
+    }
+
+
+}
